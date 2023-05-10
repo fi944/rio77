@@ -16,7 +16,7 @@ async def _(event):
     if jepthon[0] == "yes":
         await event.edit("**᯽︙سيتم تجميع النقاط , قبل كل شي تأكد من انك قمت بلانظمام الى القنوات الاشتراك الاجباري للبوت لعدم حدوث اخطاء**")
         channel_entity = await sedthon.get_entity(bot_username)
-        await jepiq.send_message('@zmmbot', '/start')
+        await sedthon.send_message('@zmmbot', '/start')
         await asyncio.sleep(5)
         msg0 = await sedthon.get_messages('@zmmbot', limit=1)
         await msg0[0].click(2)
